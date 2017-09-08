@@ -9,5 +9,11 @@ function logShout(string){
 }
 function sayHiToGrandma(string) {
   var x = "I can't hear you!"
-  return x
+  var y = "YES INDEED!"
+  var z = "I love you, too."
+  if string === 'hello'
+    return x
+  if string === 'HELLO'
+    return y
+  if string === 'I love you, Grandma.'
 }
