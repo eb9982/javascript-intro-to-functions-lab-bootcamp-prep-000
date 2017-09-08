@@ -8,12 +8,13 @@ function logShout(string){
   console.log(string.toUpperCase)
 }
 function sayHiToGrandma(string) {
-  var x = "I can't hear you!"
-  var y = "YES INDEED!"
-  var z = "I love you, too."
-  if (string) == 'hello'
-    return x
-  if (string) == 'HELLO'
-    return y
-  if (string) == 'I love you, Grandma.'
+  var uppercase = "HELLO"
+  var lowercase = "hello"
+  var other = "I love you, Grandma."
+  if (string==uppercase) {
+    return "YES INDEED!"
+  }
+  if (string==lowercase) {
+    return "I can't hear you!"
+  }
 }
