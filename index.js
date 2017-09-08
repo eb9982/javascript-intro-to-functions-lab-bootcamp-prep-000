@@ -11,9 +11,9 @@ function sayHiToGrandma(string) {
   var x = "I can't hear you!"
   var y = "YES INDEED!"
   var z = "I love you, too."
-  if (string) = 'hello'
+  if (string) == 'hello'
     return x
-  if (string) = 'HELLO'
+  if (string) == 'HELLO'
     return y
-  if (string) = 'I love you, Grandma.'
+  if (string) == 'I love you, Grandma.'
 }
