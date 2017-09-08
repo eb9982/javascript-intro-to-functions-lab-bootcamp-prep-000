@@ -7,6 +7,10 @@ function whisper(string) {
 function logShout(string){
   var y = 'HELLO'
   console.log(y)
+function logWhisper(string){
+  var y = 'hello'
+  console.log(y)
+}
 
 }
 function sayHiToGrandma(string) {
